@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex2</title>
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td><img width="100" src="/images/livraison.png" alt=""></td><td><h1>Mon site de livraison - Nous livrons partout</h1></td>
+            </tr>
+        </table>
+        <nav>
+            <a target="_blank" href="">Accueil</a> <a target="_blank" href="">Inscription</a> <a target="_blank" href="">Se connecter</a>
+        </nav>
+    </header>
+    <div>
+        <main>
+            <section>
+                <form>
+                    <h2>Formulaire d'Inscription</h2>
+                    <table border="3" width="100%">
+                        <tr>
+                            <td width="50%">
+                                <fieldset>
+                                    <legend>information  d'inscription</legend>
+                                    <label for="input">Pseudo</label><br>
+                                    <input required type="text" placeholder="votre pseudo en un seul mot"><br>
+                                    <label for="input">Mot de pass</label><br>
+                                    <input required type="password" placeholder="votre mot de pass" min="8"><br>
+                                    <label for="input">Confirmer le mot de pass</label><br>
+                                    <input required type="password" placeholder="confirmer votre mot de pass"><br>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Periode de livraison souhaitee</legend>
+                                    <input required type="checkbox"><label for="input">matin</label><br>
+                                    <input required type="checkbox"><label for="input">Midi</label><br>
+                                    <input required type="checkbox"><label for="input">Apres-midi</label><br>
+                                    <input required type="checkbox"><label for="input">Soir</label>
+                                </fieldset>
+                            </td>
+                            <td>
+                                <fieldset>
+                                    <legend>Identité du client</legend>
+                                    <label for="input">Nom et prenoms</label><br>
+                                    <input type="text"><br>
+                                    <label for="input">Cellulaire/Téléphone</label><br>
+                                    <input type="text"><br>
+                                    <label for="input">email</label><br>
+                                    <input type="email"><br>
+                                    <label for="input">Votre région</label><br>
+                                    <select>
+                                        <option value="">choisir votre region</option>
+                                        <option value="meknes">meknes</option>
+                                        <option value="tm7dit">tim7dit</option>
+                                        <option value="rissani">rissani</option>
+                                    </select><br>
+                                    <label for="input">Adresse exacte (Quartier/Rue/N) :</label><br>
+                                    <textarea name="" id="" cols="50" rows="3" placeholder="Votre adresse ?"></textarea>
+                                </fieldset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>Tarif souhaite</legend>
+                                    <input type="radio"><label for="input">Moins de 50 DH</label><br>
+                                    <input type="radio"><label for="input">Entre 50 DH et 100 DH</label><br>
+                                    <input type="radio"><label for="input">Entre 100 DH et 150 DH</label><br>
+                                    <input type="radio"><label for="input">Indifférent</label><br>
+                                </fieldset>
+                            </td>
+                            <td>
+                                <fieldset>
+                                    <legend>Autre informations</legend>
+                                    <label for="textarea">Autres précisions</label><br>
+                                    <textarea name="" id="" cols="50" rows="3"></textarea>
+                                </fieldset>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input type="submit" value="Valider">
+                    <input type="reset" value="Annuler">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Contenu du pied de la page</p>
+        </footer>
+    </div>
+</body>
+</html>
